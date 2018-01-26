@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+			color: whitesmoke;
+}
+a {
+	  text-decoration: none;
+	font-weight:normal;
+letter-spacing:1pt;
+word-spacing:4pt;
+font-size:16px;
+text-align:left;
+font-family:"Helvetica Neue", Helvetica, Arial;
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  min-width: 100%;
+  min-height: 100%;
+	z-index: -1;
+}
+.icon {
+	  width: 512px;
+    height: 100px;
+    background-image: url(icon.png);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.search {
+	width: 600px;
+	height: 40px;
+	position: absolute;
+	bottom: 0100px;
+	left: 020px;
+	right: 0;
+	top: 260px;
+	margin: auto;
+}
+.ui_field{
+width: 70%;
+	height: 20%;
+	 box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 46;
+    padding: 6px;
+	padding-top: 16px;
+    outline: none;
+}
+.ui_button{
+background: transparent;
+	width: 150px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 10px 10px 10px;
+  border: solid #FFFFFF 2px;
+  text-decoration: none;
+}
+#pname{
+	width: 336px;
+	height: 60px;
+	margin-top: 60px;
+	margin-left: 36%;
+	text-align: center;
+font-family:"Helvetica Neue", Helvetica, Arial;
+	font-size: 46px;
+    font-weight: normal;
+ background: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+ border: solid #ffffff 2px;
+    text-decoration: none;
+}
+
+#con{
+	  font-size : 23px;
+    background: transparent;
+	position: absolute;
+	top: auto;
+    margin-top: 12px;
+     width: inherit;
+	height: 100%;
+	font-family:impact, sans-serif;
+	overflow: auto;
+	overflow-x: hidden;
+ transition:left 0.3s linear;
+
+}
+button{
+	background-color: white;
+     width: 280px;
+	margin-left: 10px;
+	margin-top: 0px;
+	outline: hidden;
+padding: 10px 10px 10px 10px;
+border: solid #FFFFFF 2px;
+ text-decoration: none;
+font-weight:normal;
+letter-spacing:0pt;
+
+word-spacing:1pt;
+font-size:16px;
+text-align:left;
+font-family:impact, sans-serif;
+}
+.find_button{
+		background-image: url(button_epng);
+     width: 280px;
+	margin-left: 10px;
+	margin-top: 5px;
+	outline: hidden;
+padding: 10px 10px 10px 10px;
+border: solid #FFFFFF 2px;
+ text-decoration: none;
+font-weight:normal;
+letter-spacing:0pt;
+word-spacing:1pt;
+font-size:16px;
+text-align:left;
+font-family:impact, sans-serif;
+	
+}
+
+#sidebar{
+	background:#151718;
+	width:200px;
+	height:100%;
+	display:block;
+	position:absolute;
+	left:-200px;
+	top:0px;
+}
+
+#sidebar.visible{
+	left:0px;
+	transition:left 0.3s linear;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+	
+}
+
+ul li{
+	list-style:none;
+}
+
+ul li a{
+    color: #447dd3;
+	background:white;
+	border-bottom:1px solid #111;
+	display:block;
+	width:100%;
+	height: 30px;
+	text-align: left;
+	padding:10px;
+	text-decoration: none;
+}
+ul li a:hover{
+	background:#FFFFFF;
+	color:black;
+	border-bottom:1px solid #111;
+	display:block;
+	width:290px;
+	height: 30px;
+	text-align: left;
+	padding:10px;
+	text-decoration: none;
+}
+
+#addnewfield{
+ width: 220px;
+height: 50px;
+padding: 6px 0px 0px 0px;;
+	margin-left: 6px;
+	margin-top: 20px;
+}
+#addnewbutton{
+	font-family:Helvetica Neue, Helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	font-size: 20px;
+	outline:thick; 
+	width: 60px;
+	height: 60px;
+	padding: 0px;
+
+}
